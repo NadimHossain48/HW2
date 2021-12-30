@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.logo {
+    background-image: url(download.jpg);
+    background-color: blueviolet;
+    height: 90px;
+    text-align: center;
+    margin-top: 0px;
+    margin-right: 0px;
+
+}
+.logo h1{
+    text-align: center;
+    color: rgb(166, 233, 172);
+    text-shadow: 5px 3px black;
+    
+}
+
+.nav {
+    background-color: aquamarine;
+    padding: 1% 10%;
+    text-align: center;
+    height: 35px;
+    
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(8, 68, 68);
+    font-size: 1.2rem;
+    padding: 15px 15px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.nav a:hover{
+    background-color: teal;
+}
+
+.left-sidebar{
+	background-color: rgb(3, 68, 77);
+	height: 400px;
+	width: 20%;
+    float: left;
+	overflow: hidden;
+}
+.left-sidebar a{
+    color: white;
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.middle-area{
+	background-color: black;
+	height:400px;
+	width: 60%;
+	overflow: hidden;
+	float:left;
+    
+}
+.right-sidebar{
+	
+	background-color: rgb(3, 68, 77);
+	height:400px;
+	width:20%;
+	overflow:hidden
+	
+}
+.right-sidebar a{
+    text-align: left;
+    text-decoration: none;
+    color: blanchedalmond;
+    padding: 3px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+.bottom {
+    background-color: rgb(7, 105, 97);
+    height: 85px;
+}
+.bot{
+    width: 50%;
+	overflow: hidden;
+	float: left;
+}
+
+.bot a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    
+    margin: 10px;
+
+}
+
+.bot p {
+    color: white;
+    margin-top: 30px;
+    margin-left: 20px;
+    font-weight: bolder;
+}
+.bottom social-media{
+    width: 50%;
+	overflow: hidden;
+	float:right;
+}
+.social-media{
+    
+    padding: 20px 20px;
+    text-align: center;
+}
+.btn{
+    border: none ;
+    padding: 8px 15px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+
+} 
+.btn:hover{
+    background-color: black;
+}
+
+

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Using CSS</title>
+
+    <style>
+        body{
+            background-color: gray;
+        }
+        .nav {
+            background-color: rgb(21, 201, 141);
+            padding: 1% 5%;
+            text-align: center;
+            height: 30px;
+            position: fixed;
+            width: 100%;
+
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: rgb(8, 68, 68);
+            font-size: 1.2rem;
+            padding: 10px 15px;
+            cursor: pointer;
+            font-weight: bolder;
+        }
+
+        .nav a:hover {
+            background-color: teal;
+        }
+
+        table {
+            border: 2px solid green;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 2px solid red;
+            padding: 5px;
+        }
+
+        th {
+            background-color: seagreen;
+            color: white;
+            height: 20px;
+            vertical-align: middle;
+        }
+
+        tr:nth-child(even) {
+            background-color: tomato;
+        }
+
+        tr:nth-child(odd) {
+            background-color: yellowgreen;
+        }
+
+        tr:hover {
+            background-color: springgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+
+        <a href="index.html">Home</a>
+        <a href="overview.html">Feedback</a>
+        <a href="#">Contact</a>
+        <a href="form.html">Singup</a>
+        <a href="CV.html">About Me</a>
+
+    </div>
+    <table>
+        <caption>Students Details</caption>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>GPA</th>
+            <th>Bio</th>
+            <th>Phone</th>
+        </tr>
+
+        <tr>
+            <td>543</td>
+            <td>Nadim</td>
+            <td>3.43</td>
+            <td>Nonumy ut stet at sanctus dolores takimata nonumy consetetur eos rebum. Stet tempor sadipscing aliquyam
+                eirmod dolor et stet diam. Kasd dolor dolores sit est sea dolore clita eos accusam. Et invidunt dolor ut
+                clita, amet et justo sadipscing dolor lorem et diam sed magna, erat diam labore gubergren kasd.</td>
+            <td>01710203040</td>
+        </tr>
+
+        <tr>
+            <td>243</td>
+            <td>Nadia</td>
+            <td>3.00</td>
+            <td>Nonumy ut stet at sanctus dolores takimata nonumy consetetur eos rebum. Stet tempor sadipscing aliquyam
+                eirmod dolor et stet diam. Kasd dolor dolores sit est sea dolore clita eos accusam. Et invidunt dolor ut
+                clita, amet et justo sadipscing dolor lorem et diam sed magna, erat diam labore gubergren kasd.</td>
+            <td>01710203040</td>
+        </tr>
+
+        <tr>
+            <td>503</td>
+            <td>Nasir</td>
+            <td>3.13</td>
+            <td>Nonumy ut stet at sanctus dolores takimata nonumy consetetur eos rebum. Stet tempor sadipscing aliquyam
+                eirmod dolor et stet diam. Kasd dolor dolores sit est sea dolore clita eos accusam. Et invidunt dolor ut
+                clita, amet et justo sadipscing dolor lorem et diam sed magna, erat diam labore gubergren kasd.</td>
+            <td>01710203040</td>
+        </tr>
+
+        <tr>
+            <td>143</td>
+            <td>Nadu</td>
+            <td>3.53</td>
+            <td>Nonumy ut stet at sanctus dolores takimata nonumy consetetur eos rebum. Stet tempor sadipscing aliquyam
+                eirmod dolor et stet diam. Kasd dolor dolores sit est sea dolore clita eos accusam. Et invidunt dolor ut
+                clita, amet et justo sadipscing dolor lorem et diam sed magna, erat diam labore gubergren kasd.</td>
+            <td>01710203040</td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>

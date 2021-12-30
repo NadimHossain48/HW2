@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav {
+    background-color: rgb(21, 201, 141);
+    padding: 1% 5%;
+    text-align: center;
+    height: 30px;
+    position: fixed;
+    width: 100%;
+    
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(8, 68, 68);
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.nav a:hover{
+    background-color: teal;
+}
+
+body{
+    background-color:thistle;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    
+    background-color:cadetblue;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.img{
+    width: 100px;
+    height: 150px;
+    border: 3px solid black;
+    border-radius: 10%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 40px;
+}
+.header-contact{
+    float: right;
+    padding: 40px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.header-contact a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none ;
+}
+#personal-section{
+
+}
+.content{
+      margin-bottom: 30px;
+
+}
+.left-div{
+    width: 30%;
+    float: left;
+
+}
+.right-div{
+    width: 70%;
+    float: left;
+}
+.common-hr{
+    border: solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none ;
+}
+.education-templete-left{
+    float: left ;
+    width: 45%;
+
+}
+.education-templete-right{
+    float: right ;
+    width: 45%;
+
+}
+.bottom{
+    background-color:rgb(21, 201, 141);
+    text-align: center;
+    padding: 10px;
+}
+.bottom a{
+    color:indigo;
+    text-decoration: none;
+    margin: 10px;
+}
+.bottom p{
+    color:indigo;
+    margin-top: 20px;
+}

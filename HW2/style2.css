@@ -1,0 +1,48 @@
+body{
+    background-color:rgba(14, 189, 66, 0.788);
+}
+   
+   
+.nav {
+    background-color: rgb(119, 139, 30);
+    padding: 1% 5%;
+    text-align: center;
+    height: 30px;
+    position: fixed;
+    width: 100%;
+    
+    
+}
+
+.nav a {
+    text-decoration: none;
+    color: rgb(8, 68, 68);
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bolder;
+}
+.nav a:hover{
+    background-color: teal;
+}
+    .design{
+        font-size: 40px;
+   color: yellow;
+   text-shadow: 3px 3px 3px black;
+   text-align: center;
+    }
+    
+    p::first-letter{
+        color:black;
+        font-size: 2rem;
+    }
+    p::after{
+        content: "!";
+    }
+    .table td{
+        display: block;
+        margin-right:  auto;
+        padding: 3px;
+    }
+
+    
